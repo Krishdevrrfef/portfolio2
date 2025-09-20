@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krishna Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content-left">
+        <h1>Hi, I'm Krishna<br />Vardhan Reddy</h1>
+        <p class="hero-role">Frontend Developer</p>
+        <p>
+          I build fast, accessible, and beautiful web apps. I like anime and
+          clean UI design. Explore my projects and get in touch.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="resume.pdf" class="btn btn-secondary" download
+            >Download Resume</a
+          >
+        </div>
+      </div>
+      <div class="hero-content-right">
+        <div class="hero-card">
+          <img
+            src="hero-avatar.png"
+            alt="Krishna Vardhan Reddy"
+            class="hero-avatar"
+          />
+          <div class="hero-card-info">
+            <h4>Krishna Vradhan Reddy</h4>
+            <p>React | Tailwind | Vite</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="projects" class="projects-grid">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="svd.png" alt="Software Vulnerability Detection Tool" />
+        </div>
+        <div class="project-info">
+          <h3>Software Vulnerability Detection Tool</h3>
+          <p>
+            <a
+              href="https://github.com/Krishdevrrfef/Software-Vulnerability-Detection-tool"
+              class="btn btn-primary"
+              >Get Code</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="obt.png" alt="Online Booking Transport" />
+        </div>
+        <div class="project-info">
+          <h3>Online Booking Transport</h3>
+          <p>
+            <a
+              href="https://github.com/Krishdevrrfef/Online-Booking-Transport"
+              class="btn btn-primary"
+              >Get Code</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="dark-mode-toggle">
+      <button id="theme-toggle">Toggle Dark Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
